@@ -298,6 +298,7 @@ def win(s,p):
     (s[0] == p and s[4] == p and s[8] == p)or
     (s[2] == p and s[4] == p and s[6] == p)):
         return True
-    else: return False
+    else:
+        return False
 
 
